@@ -1,0 +1,103 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "审查要素"
+  "atom-text-editor":
+    "color-picker:open": "色彩选取工具"
+    "minimap:toggle": "小地图开启/关闭"
+  "atom-text-editor, .overlayer":
+    "core:undo": "还原"
+    "core:redo": "重做"
+    "core:cut": "剪贴"
+    "core:copy": "复制"
+    "core:paste": "粘贴"
+    "core:delete": "删除"
+    "core:select-all": "全选"
+    "pane:split-up": "向上分割窗格 ↑"
+    "pane:split-down": "向下分割窗格 ↓"
+    "pane:split-left": "向左分割窗格 ←"
+    "pane:split-right": "向右分割窗格 →"
+    "pane:close": "关闭窗格"
+  "atom-pane":
+    "pane:split-up": "向上分割窗格 ↑"
+    "pane:split-down": "向下分割窗格 ↓"
+    "pane:split-left": "向左分割窗格 ←"
+    "pane:split-right": "向右分割窗格 →"
+    "pane:close": "关闭窗格"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "切换编码"
+    "spell-check:correct-misspelling": "拼写检查"
+    "symbols-view:go-to-declaration": "移动至声明"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "展示于项目清单面板"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:reveal-active-file": "展示于项目清单面板"
+  ".overlayer":
+    "autocomplete:toggle": "自动补全"
+    "grammar-selector:show": "语法选择"
+  ".image-view":
+    "image-view:reload": "重新载入"
+  ".tab":
+    "tabs:close-tab": "关闭"
+    "tabs:close-other-tabs": "关闭其它选项卡"
+    "tabs:close-tabs-to-right": "关闭右侧选项卡"
+    "tabs:close-saved-tabs": "关闭已保存的选项卡"
+    "tabs:close-all-tabs": "关闭所有选项卡"
+    "tabs:split-up": "向上分割窗格 ↑"
+    "tabs:split-down": "向下分割窗格 ↓"
+    "tabs:split-left": "向左分割窗格 ←"
+    "tabs:split-right": "向右分割窗格 →"
+  ".tab-bar":
+    "pane:reopen-closed-item": "重新打开上一次的选项卡"
+  ".tree-view.full-menu":
+    "tree-view:add-file": "添加文件"
+    "tree-view:add-folder": "添加文件夹"
+    "tree-view:move": "移动・重新命名..."
+    "tree-view:duplicate": "制作副本"
+    "tree-view:remove": "删除"
+    "tree-view:copy": "复制"
+    "tree-view:cut": "剪切"
+    "tree-view:paste": "粘贴"
+    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+    "tree-view:open-selected-entry-right": "向右分割窗格 →"
+    "application:add-project-folder": "添加项目文件夹..."
+    "tree-view:copy-full-path": "复制完整路径"
+    "tree-view:copy-project-path": "复制项目路径"
+    "tree-view:open-in-new-window": "新窗口中打开"
+  '.tree-view.full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+    "tree-view:open-selected-entry-right": "向右分割窗格 →"
+  ".tree-view.full-menu .project-root > .header":
+    "tree-view:add-file": "添加文件"
+    "tree-view:add-folder": "添加文件夹"
+    "tree-view:move": "移动・重新命名..."
+    "tree-view:duplicate": "制作副本"
+    "tree-view:remove": "删除"
+    "tree-view:copy": "复制"
+    "tree-view:cut": "剪切"
+    "tree-view:paste": "粘贴"
+    "tree-view:open-selected-entry-up": "向上分割窗格 ↑"
+    "tree-view:open-selected-entry-down": "向下分割窗格 ↓"
+    "tree-view:open-selected-entry-left": "向左分割窗格 ←"
+    "tree-view:open-selected-entry-right": "向右分割窗格 →"
+    "application:add-project-folder": "添加项目文件夹..."
+    "tree-view:remove-project-folder": "移除项目文件夹"
+    "tree-view:copy-full-path": "复制完整路径"
+    "tree-view:copy-project-path": "复制项目路径"
+    "tree-view:open-in-new-window": "新窗口中打开"
+  ".platform-darwin .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "在文件夹中打开"
+  ".platform-win32 .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "在文件夹中打开"
+  ".platform-linux .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "在文件夹中打开"
+  ".tree-view > li.directory":
+    "project-find:show-in-current-directory": "当前目录中寻找"
+  ".tree-view.multi-select":
+    "tree-view:remove": "删除"
+    "tree-view:copy": "复制"
+    "tree-view:cut": "剪切"
+    "tree-view:paste": "粘贴"

@@ -1,0 +1,289 @@
+Menu:
+	"&File":
+		value: "文件(&F)"
+		submenu:
+			"New &Window":
+				value: "新窗口(&W)"
+			"&New File":
+				value: "新建文件(&N)"
+			"&Open File…":
+				value: "打开(&O)..."
+			"Open Folder…":
+				value: "打开文件夹..."
+			"Add Project Folder…":
+				value: "添加项目文件夹..."
+			"Reopen Last &Item":
+				value: "打开最近关闭的文件(&I)"
+			"Se&ttings":
+				value: "偏好设置(&T)..."
+			"Open Your Config":
+				value: "打开 配置文件"
+			"Open Your Init Script":
+				value: "打开 启动脚本"
+			"Open Your Keymap":
+				value: "打开 热键设置"
+			"Open Your Snippets":
+				value: "打开 Snippets"
+			"Open Your Stylesheet":
+				value: "打开 Stylesheet"
+			"&Save":
+				value: "保存(&S)"
+			"Save &As…":
+				value: "另存为(&A)..."
+			"Save A&ll":
+				value: "保存全部(&L)"
+			"&Close Tab":
+				value: "关闭面板(&C)"
+			"Close &Pane":
+				value: "关闭窗格(&P)"
+			"Clos&e Window":
+				value: "关闭窗口(&E)"
+			"E&xit":
+				value: "结束 Atom(&X)"
+	"&Edit":
+		value: "编辑(&E)"
+		submenu:
+			"&Undo":
+				value: "撤销(&U)"
+			"&Redo":
+				value: "重做(&R)"
+			"Cu&t":
+				value: "剪切(&T)"
+			"&Copy":
+				value: "复制(&C)"
+			"Copy Pat&h":
+				value: "复制路径(&H)"
+			"&Paste":
+				value: "粘贴(&P)"
+			"Select &All":
+				value: "全选(&A)"
+			"&Toggle Comments":
+				value: "注释/反注释(&T)"
+			Lines:
+				value: "行"
+				submenu:
+					"&Indent":
+						value: "向右缩进(&I)"
+					"&Outdent":
+						value: "向左缩进(&O)"
+					"&Auto Indent":
+						value: "自动缩进(&A)"
+					"Move Line &Up":
+						value: "向上切换行(&U)"
+					"Move Line &Down":
+						value: "向下切换行(&D)"
+					"Du&plicate Lines":
+						value: "复制行(&P)"
+					"D&elete Line":
+						value: "删除行(&E)"
+					"&Join Lines":
+						value: "合并行(&J)"
+			Text:
+				value: "文字"
+				submenu:
+					"&Upper Case":
+						value: "转为大小(&U)"
+					"&Lower Case":
+						value: "转为小写(&L)"
+					"Delete to End of &Word":
+						value: "删除到词尾(&W)"
+					"Delete to Previous Word Boundary":
+						value: "删除上一词"
+					"Delete to Next Word Boundary":
+						value: "删除下一词"
+					"&Delete Line":
+						value: "删除行(&D)"
+					"&Transpose":
+						value: "字符互换(&T)"
+			Folding:
+				value: "代码折叠"
+				submenu:
+					"&Fold":
+						value: "折叠(&F)"
+					"&Unfold":
+						value: "展开(&U)"
+					"Unfold &All":
+						value: "展开全部(&A)"
+					"Fol&d All":
+						value: "折叠全部(&D)"
+					"Fold Level 1":
+						value: "折叠1层"
+					"Fold Level 2":
+						value: "折叠2层"
+					"Fold Level 3":
+						value: "折叠3层"
+					"Fold Level 4":
+						value: "折叠4层"
+					"Fold Level 5":
+						value: "折叠5层"
+					"Fold Level 6":
+						value: "折叠6层"
+					"Fold Level 7":
+						value: "折叠7层"
+					"Fold Level 8":
+						value: "折叠8层"
+					"Fold Level 9":
+						value: "折叠9层"
+			"Reflow Selection":
+				value: "回流所选"
+			Bookmark:
+				value: "书签"
+				submenu:
+					"View All":
+						value: "查看全部"
+					"Toggle Bookmark":
+						value: "添加/移除 书签"
+					"Jump to Next Bookmark":
+						value: "跳转到下一个书签"
+					"Jump to Previous Bookmark":
+						value: "跳转到上一个书签"
+			"Select Encoding":
+				value: "选择编码"
+			"Go to Line":
+				value: "移动到指定行"
+			"Select Grammar":
+				value: "选择语法"
+	"&View":
+		value: "查看(&V)"
+		submenu:
+			"&Reload":
+				value: "重新载入系统(&R)"
+			"Toggle &Full Screen":
+				value: "切换全屏模式(&F)"
+			"Toggle Menu Bar":
+				value: "隐藏/显示功能菜单"
+			Panes:
+				value: "窗格"
+				submenu:
+					"Split Up":
+						value: "向上分割 ↑"
+					"Split Down":
+						value: "向下分割 ↓"
+					"Split Left":
+						value: "向左分割 ←"
+					"Split Right":
+						value: "向右分割 →"
+					"Focus Next Pane":
+						value: "下一个窗格"
+					"Focus Previous Pane":
+						value: "上一个窗格"
+					"Focus Pane Above":
+						value: "定位上方窗格 ↑"
+					"Focus Pane Below":
+						value: "定位下方窗格 ↓"
+					"Focus Pane On Left":
+						value: "定位左方窗格 ←"
+					"Focus Pane On Right":
+						value: "定位右方窗格 →"
+					"Close Pane":
+						value: "关闭窗格"
+			Developer:
+				value: "开发者"
+				submenu:
+					"Open In &Dev Mode…":
+						value: "以开发者模式运行(&D)"
+					"Run &Atom Specs":
+						value: "运行 Atom Specs(&A)"
+					"Run Package &Specs":
+						value: "运行 Package Spec(&S)"
+					"Toggle Developer &Tools":
+						value: "开启/关闭 开发者工具(&T)"
+			"&Increase Font Size":
+				value: "放大文字尺寸"
+			"&Decrease Font Size":
+				value: "缩小文字尺寸"
+			"Re&set Font Size":
+				value: "重设文字尺寸"
+			"Toggle Soft &Wrap":
+				value: "自动换行(&W)"
+			"Toggle Command Palette":
+				value: "指令面板"
+			"Toggle Tree View":
+				value: "清单面板"
+	"&Selection":
+		value: "选择(&S)"
+		submenu:
+			"Add Selection &Above":
+				value: "添加上一行 ↑(&A)"
+			"Add Selection &Below":
+				value: "添加下一行 ↓(&B)"
+			"S&plit into Lines":
+				value: "拆分成行(&P)"
+			"Single Selection":
+				value: "选择单行"
+			"Select to &Top":
+				value: "选择到文件头(&T)"
+			"Select to Botto&m":
+				value: "选择到文件尾(&M)"
+			"Select &Line":
+				value: "选择行(&L)"
+			"Select &Word":
+				value: "选择词组(&W)"
+			"Select to Beginning of W&ord":
+				value: "选取至词首(&O)"
+			"Select to Beginning of L&ine":
+				value: "选择到行首(&I)"
+			"Select to First &Character of Line":
+				value: "选择到本行第一个字符(&C)"
+			"Select to End of Wor&d":
+				value: "选择到词尾(&D)"
+			"Select to End of Lin&e":
+				value: "选择到行尾(&E)"
+			"Select Inside Brackets":
+				value: "选择括号内容"
+	"F&ind":
+		value: "查找(&I)"
+		submenu:
+			"Find in Buffer":
+				value: "当前文件中查找..."
+			"Replace in Buffer":
+				value: "当前文件中替换..."
+			"Select Next":
+				value: "选择下一个"
+			"Select All":
+				value: "选择全部"
+			"Toggle Find in Buffer":
+				value: "切换查找面板"
+			"Find in Project":
+				value: "项目中查找..."
+			"Toggle Find in Project":
+				value: "打開/关闭在项目文件夾寻找面板"
+			"Find Next":
+				value: "查找下一个"
+			"Find Previous":
+				value: "查找上一个"
+			"Replace Next":
+				value: "替换下一个"
+			"Replace All":
+				value: "替换全部"
+			"Find Buffer":
+				value: "查找 打开的文件"
+			"Find File":
+				value: "查找 文件"
+			"Find Modified File":
+				value: "查找 修改过的文件"
+	"&Packages":
+		value: "插件(&P)"
+	"&Help":
+		value: "帮助(&H)"
+		submenu:
+			"View &Terms of Use":
+			  value: "使用条款(&T)"
+			"View &License":
+			  value: "检视授权(&L)"
+			"&Documentation":
+				value: "文档(&D)"
+			Roadmap:
+				value: "发展蓝图"
+			"Frequently Asked Questions":
+				value: "常见问题"
+			"Community Discussions":
+				value: "社群讨论"
+			"Report Issue":
+				value: "报告问题"
+			"Search Issues":
+				value: "已知问题"
+			"Release Notes":
+				value: "版本说明"
+			"Welcome Guide":
+				value: "欢迎页面与指南"

@@ -247,7 +247,7 @@ Menu:
 			"Find in Project":
 				value: "项目中查找..."
 			"Toggle Find in Project":
-				value: "打開/关闭在项目文件夾寻找面板"
+				value: "打开/关闭在项目文件夹中寻找面板"
 			"Find Next":
 				value: "查找下一个"
 			"Find Previous":

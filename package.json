@@ -1,7 +1,7 @@
 {
   "name": "atom-chs-menu",
   "main": "./lib/main",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Atom 功能选项菜单与右键菜单汉化。",
   "keywords": [
     "Localization",

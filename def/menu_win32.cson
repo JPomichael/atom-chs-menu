@@ -7,7 +7,7 @@ Menu:
 			"&New File":
 				value: "新建文件(&N)"
 			"&Open File…":
-				value: "打开(&O)..."
+				value: "打开文件(&O)..."
 			"Open Folder…":
 				value: "打开文件夹..."
 			"Add Project Folder…":
@@ -15,7 +15,7 @@ Menu:
 			"Reopen Last &Item":
 				value: "打开最近关闭的文件(&I)"
 			"Se&ttings":
-				value: "偏好设置(&T)..."
+				value: "设置(&T)..."
 			"Open Your Config":
 				value: "打开 配置文件"
 			"Open Your Init Script":
@@ -33,7 +33,7 @@ Menu:
 			"Save A&ll":
 				value: "保存全部(&L)"
 			"&Close Tab":
-				value: "关闭面板(&C)"
+				value: "关闭选项卡(&C)"
 			"Close &Pane":
 				value: "关闭窗格(&P)"
 			"Clos&e Window":
@@ -69,9 +69,9 @@ Menu:
 					"&Auto Indent":
 						value: "自动缩进(&A)"
 					"Move Line &Up":
-						value: "向上切换行(&U)"
+						value: "向上移动行(&U)"
 					"Move Line &Down":
-						value: "向下切换行(&D)"
+						value: "向下移动行(&D)"
 					"Du&plicate Lines":
 						value: "复制行(&P)"
 					"D&elete Line":
@@ -125,7 +125,7 @@ Menu:
 					"Fold Level 9":
 						value: "折叠9层"
 			"Reflow Selection":
-				value: "回流所选"
+				value: "折叠选中"
 			Bookmark:
 				value: "书签"
 				submenu:
@@ -151,7 +151,7 @@ Menu:
 			"Toggle &Full Screen":
 				value: "切换全屏模式(&F)"
 			"Toggle Menu Bar":
-				value: "隐藏/显示功能菜单"
+				value: "隐藏/显示菜单"
 			Panes:
 				value: "窗格"
 				submenu:
@@ -197,7 +197,7 @@ Menu:
 			"Toggle Soft &Wrap":
 				value: "自动换行(&W)"
 			"Toggle Command Palette":
-				value: "指令面板"
+				value: "命令面板"
 			"Toggle Tree View":
 				value: "清单面板"
 	"&Selection":
@@ -282,7 +282,7 @@ Menu:
 			"Report Issue":
 				value: "报告问题"
 			"Search Issues":
-				value: "已知问题"
+				value: "搜索问题"
 			"Release Notes":
 				value: "版本说明"
 			"Welcome Guide":

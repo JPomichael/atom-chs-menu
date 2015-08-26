@@ -1,13 +1,13 @@
 Context:
   "atom-workspace":
-    "application:inspect": "审查要素"
+    "application:inspect": "审查元素"
   "atom-text-editor":
     "color-picker:open": "色彩选取工具"
     "minimap:toggle": "小地图开启/关闭"
   "atom-text-editor, .overlayer":
-    "core:undo": "还原"
+    "core:undo": "撤销"
     "core:redo": "重做"
-    "core:cut": "剪贴"
+    "core:cut": "剪切"
     "core:copy": "复制"
     "core:paste": "粘贴"
     "core:delete": "删除"
@@ -35,9 +35,9 @@ Context:
     "autocomplete:toggle": "自动补全"
     "grammar-selector:show": "语法选择"
   ".image-view":
-    "image-view:reload": "重新载入"
+    "image-view:reload": "重新载入视图"
   ".tab":
-    "tabs:close-tab": "关闭"
+    "tabs:close-tab": "关闭选项卡"
     "tabs:close-other-tabs": "关闭其它选项卡"
     "tabs:close-tabs-to-right": "关闭右侧选项卡"
     "tabs:close-saved-tabs": "关闭已保存的选项卡"
@@ -49,8 +49,8 @@ Context:
   ".tab-bar":
     "pane:reopen-closed-item": "重新打开上一次的选项卡"
   ".tree-view.full-menu":
-    "tree-view:add-file": "添加文件"
-    "tree-view:add-folder": "添加文件夹"
+    "tree-view:add-file": "新建文件"
+    "tree-view:add-folder": "新建文件夹"
     "tree-view:move": "移动・重新命名..."
     "tree-view:duplicate": "制作副本"
     "tree-view:remove": "删除"
@@ -71,8 +71,8 @@ Context:
     "tree-view:open-selected-entry-left": "向左分割窗格 ←"
     "tree-view:open-selected-entry-right": "向右分割窗格 →"
   ".tree-view.full-menu .project-root > .header":
-    "tree-view:add-file": "添加文件"
-    "tree-view:add-folder": "添加文件夹"
+    "tree-view:add-file": "新建文件"
+    "tree-view:add-folder": "新建文件夹"
     "tree-view:move": "移动・重新命名..."
     "tree-view:duplicate": "制作副本"
     "tree-view:remove": "删除"
